@@ -54,11 +54,10 @@ public class NuoviEsercizi {
 
     // Metodo per l'area e perimetro del triangolo
     public static double perimetroTriangolo(double a, double b, double c) {
-        // Calcoliamo il semiperimetro (la metà della somma dei lati)
+        // Calcoliamo il semiperimetro (la metà della somma dei lati
         double semiPerimetro = (a + b + c) / 2;
         // Applichiamo la formula di Erone. Math.sqrt serve a fare la Radice Quadrata
-        double area = Math.sqrt(semiPerimetro * (semiPerimetro - a) * (semiPerimetro - b) * (semiPerimetro - c));
-        return area;
+        return Math.sqrt(semiPerimetro * (semiPerimetro - a) * (semiPerimetro - b) * (semiPerimetro - c));
     }
 
 }

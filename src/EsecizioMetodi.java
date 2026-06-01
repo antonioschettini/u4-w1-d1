@@ -22,14 +22,12 @@ public class EsecizioMetodi {
 
     // Metodo 1 moltiplica
     public static int moltiplica(int num1, int num2) {
-        int prodotto = num1 * num2;
-        return prodotto;
+        return num1 * num2;
     }
 
     // Metodo 2 concatena
     public static String concatena(String testo, int num) {
-        String risultatoUnione = testo + num;
-        return risultatoUnione;
+        return testo + num;
     }
 
     // Metodo 3 inserisci in Array
